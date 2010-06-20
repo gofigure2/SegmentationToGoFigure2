@@ -1,8 +1,6 @@
-project( SegmentationToGoFigure2 )
+cmake_minimum_required(VERSION 2.6)
 
-SET( CMAKE_RUNTIME_OUTPUT_DIRECTORY
-  ${SEGMENTATIONTOGOFIGURE2}/bin
- )
+project( SegmentationToGoFigure2 )
 
 FIND_PACKAGE( VTK )
 IF( VTK_FOUND )
