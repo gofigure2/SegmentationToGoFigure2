@@ -46,9 +46,7 @@ class vtkPolyData;
 #include "vtkObject.h"
 #include <string>
 
-#include "QGoIOConfigure.h"
-
-class QGOIO_EXPORT vtkPolyDataMySQLTextReader : public vtkObject
+class vtkPolyDataMySQLTextReader : public vtkObject
 {
 public:
   static vtkPolyDataMySQLTextReader* New();
