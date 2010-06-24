@@ -64,9 +64,9 @@ int main ( int argc, char* argv[] )
   }
 
   const unsigned int Dimension = 3;
-  typedef itk::Image< unsigned char, Dimension > FeatureImageType;
+  typedef itk::Image< unsigned short, Dimension > FeatureImageType;
   typedef itk::Image< float, Dimension >         InputImageType;
-  typedef itk::Image< unsigned int, Dimension >  SegmentImageType;
+  typedef itk::Image< unsigned short, Dimension >  SegmentImageType;
 
   typedef itk::ImageFileReader< FeatureImageType > FeatureReaderType;
   typedef itk::ImageFileReader< SegmentImageType > SegmentReaderType;
